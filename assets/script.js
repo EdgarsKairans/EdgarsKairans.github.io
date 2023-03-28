@@ -1,7 +1,1 @@
-import "../index.html";
-import "../sass/style.scss";
-var animationSpan = document.querySelectorAll(".contact__animation-vapour span");
-animationSpan.forEach(function (elem) {
-  var elemNumber = elem.classList.value * 0.5;
-  elem.style.animationDelay = "".concat(elemNumber, "s");
-});
+import"../sass/style.scss";var animationSpan=document.querySelectorAll(".contact__animation-vapour span");animationSpan.forEach((function(a){var n=.5*a.classList.value;a.style.animationDelay="".concat(n,"s")}));

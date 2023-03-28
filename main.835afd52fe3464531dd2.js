@@ -1,0 +1,1 @@
+!function(){"use strict";document.querySelectorAll(".contact__animation-vapour span").forEach((function(a){var t=.5*a.classList.value;a.style.animationDelay="".concat(t,"s")}))}();
